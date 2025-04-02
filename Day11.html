@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS Basics</title>
+    <style>
+        /* CSS Styling */
+        .box {
+            width: 100px;
+            height: 100px;
+            padding: 10px;
+            border: 5px solid black;
+            margin: 20px;
+            background-color: lightgray;
+        }
+        .container {
+            display: flex;
+            justify-content: space-around;
+        }
+        .item {
+            width: 50px;
+            height: 50px;
+            background: coral;
+            margin: 5px;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto;
+            gap: 10px;
+        }
+        .grid-item {
+            background-color: lightblue;
+            padding: 20px;
+            text-align: center;
+        }
+        body {
+            font-size: 16px;
+        }
+        @media (max-width: 600px) {
+            body {
+                font-size: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>HTML & CSS Basics</h1>
+
+    <!-- HTML Structure -->
+    <section>
+        <h2>Structures of an HTML Document</h2>
+        <p>Here is a basic structure of an HTML document:</p>
+        <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;My Page&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Hello World&lt;/h1&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+        </pre>
+    </section>
+
+    <!-- HTML Tags, Elements, and Attributes -->
+    <section>
+        <h2>HTML Tags, Elements & Attributes</h2>
+        <p>Tags define elements, and attributes provide additional information.</p>
+        <p title="This is a tooltip">This is a paragraph with a title attribute.</p>
+    </section>
+
+    <!-- Forms -->
+    <section>
+        <h2>Forms</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Semantic Elements -->
+    <section>
+        <h2>Semantic Elements</h2>
+        <article>
+            <h3>Article Example</h3>
+            <p>This is an article section.</p>
+        </article>
+    </section>
+
+    <!-- CSS Selectors & Properties -->
+    <section>
+        <h2>CSS Selectors & Properties</h2>
+        <p style="color: blue;">This paragraph is styled with CSS.</p>
+    </section>
+
+    <!-- Box Model -->
+    <section>
+        <h2>Box Model</h2>
+        <div class="box">Box</div>
+    </section>
+
+    <!-- Flexbox -->
+    <section>
+        <h2>Flexbox</h2>
+        <div class="container">
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+        </div>
+    </section>
+
+    <!-- Grid Layout -->
+    <section>
+        <h2>Grid Layout</h2>
+        <div class="grid-container">
+            <div class="grid-item">1</div>
+            <div class="grid-item">2</div>
+            <div class="grid-item">3</div>
+            <div class="grid-item">4</div>
+        </div>
+    </section>
+
+    <!-- Responsive Design -->
+    <section>
+        <h2>Responsive Design</h2>
+        <p>Resize the browser window to see the effect.</p>
+    </section>
+</body>
+</html>

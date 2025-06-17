@@ -1,6 +1,6 @@
 # 🚗 Tech-M Vehicle Service Management System
 
-A full-stack Vehicle Service Management System built using **Spring Boot**, **Hibernate**, **JPA**, and **MySQL** on the backend, with **Angular/React** on the frontend. This project helps streamline the process of vehicle service tracking, customer management, billing, and admin control.
+A full-stack Vehicle Service Management System built using **Spring Boot**, **Hibernate**, **JPA**, and **MySQL** on the backend. This project helps streamline the process of vehicle service tracking, customer management, billing, and admin control.
 
 ---
 
@@ -12,12 +12,7 @@ A full-stack Vehicle Service Management System built using **Spring Boot**, **Hi
 - ![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=flat-square&logo=hibernate)
 - ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=flat-square&logo=mysql)
 
-### Frontend (Optional based on stack)
-- ![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
-<!-- OR -->
-- ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 
----
 
 ## 📌 Features
 
